@@ -1,0 +1,25 @@
+{
+    "logo":[
+        {
+            "name": "Clark",
+            "image": "kent.png"
+        },
+        {
+            "name": "African Diaspora",
+            "image": "adc-logo.png"
+        },
+        {
+            "name": "In Touch",
+            "image": "in-touch.png"
+        },
+        {
+            "name": "Super Clark",
+            "image": "super-clark.png"
+        },
+        {
+            "name": "Washington International",
+            "image": "church.png"
+        }
+    ]
+
+}

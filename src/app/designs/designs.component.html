@@ -1,1 +1,13 @@
-<p>designs works!</p>
+<div class='design-wrapper'>
+    <h2>Logos & Custom Icons</h2>
+    <div class='logo-row'>
+        <div *ngFor="let l of logos">
+            <div *ngIf="l !== undefined" class="logobox">
+                <img src='../../assets/images/LogosIcons/{{l.image}}'/>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>The logos above were designed in either procreate, Adobe illustrator or Figma, The full portfolio page is coming soon though</p>
+    </div>
+</div>
