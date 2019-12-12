@@ -1,0 +1,40 @@
+.resume-wrapper{
+    background-color: #ebebeb;
+    margin-top: 80px;
+    height: 1100px
+}
+
+.resume-wrapper .left{
+    position: absolute;
+    float: left;
+    text-align: center;
+    width: 45%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.resume-wrapper .left ul{
+    text-align: left;
+    list-style-type: none;;
+}
+.resume-wrapper .left ul li{
+padding-top: 20px    }
+.resume-wrapper .left ul li:before{
+content: "-"
+}
+.resume-wrapper .right{
+    float: right;
+    width: 55%;
+    background-color: rgba(100, 196, 237, 0.1);
+    text-align: center;
+}
+
+.resume-wrapper .right img{
+    width: 80%;
+    
+}
