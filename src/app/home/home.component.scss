@@ -1,3 +1,70 @@
+.navbar {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  margin:auto;
+  animation: slide-down-fade-in 1s;
+}
+
+.navbar .left {
+  float: left;
+  height: 40px;
+  width: 14%;
+}
+
+.navbar .right {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+}
+.navbar .right button{
+  width: 170px;
+  height: 50px;
+  background: none;
+  border-radius: 60px;
+  border: 2px solid #5DCEFF;
+  margin-top: 7px;
+  margin-right: 25px;
+  color: #5DCEFF;
+  font-weight: bold;
+  font-size: medium;
+}
+.navbar .right a{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.15em;
+  color: #5DCEFF;
+  font-style: normal;
+font-weight: bold;
+font-size: 13px;
+margin: auto;
+text-decoration: none; 
+}
+
+
+.greeter{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #5DCEFF;
+animation: fadein 3s;
+}
+
+.caption{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+animation: fadein 4s
+}
+
 .splash {
   align-self: center;
   text-align: center;
@@ -7,6 +74,7 @@
   text-align: center;
   width: 800px;
   margin: auto;
+  animation: fadein 2s;
 }
 
 .nav .right {
@@ -72,6 +140,13 @@
   float: right;
 }
 
+.me{
+  text-align: center; align-self: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: larger;
+}
+
 .navline {
   position: absolute;
   bottom: 0;
@@ -103,6 +178,10 @@
     justify-content: space-between;
     animation: fadein 4s
   }
+  .iconRow span p{
+    font-weight: 400;
+    font-size: large;
+  }
   
   .iconRow img{
     height: 150px;
@@ -122,6 +201,16 @@ animations
     }
   }
   
+  @keyframes slide-down-fade-in{
+    0%{
+      opacity: 0;
+      transform: translate(0px,-20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translate(0px,0px);
+    }
+  }
   @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

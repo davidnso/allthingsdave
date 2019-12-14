@@ -1,16 +1,46 @@
-<div class='design-wrapper'>
-    <h2>Logos & Custom Icons</h2>
-    <div class='logo-row'>
-        <div *ngFor="let l of logos">
-            <div *ngIf="l !== undefined" class="logobox">
-                <img src='../../assets/images/LogosIcons/{{l.image}}'/>
-            </div>
-        </div>
-    </div>
-    <div>
-        <br/>
-        <br/>
-    <h2>Mobile/Web design</h2>
-    <p style="opacity: 50%; padding: 100px">Content coming soon</p>
-    </div>
+<div class="design-greeter">
+  <div class="intro">
+    <h2>
+      Hi, I’m David. Nice to meet you.
+    </h2>
+    <p>
+      Since beginning my journey as a freelance designer nearly 8 years ago,
+      I've done remote work for agencies, consulted for startups, and
+      collaborated with talented people to create digital products for both
+      business and consumer use. I'm quietly confident, naturally curious, and
+      perpetually working on improving my chops one design problem at a time.
+    </p>
 </div>
+</div>
+<div class="design-wrapper">
+        <div class="project-des">
+            <br />
+            <br />
+            <img style="width:70px" src="../../assets/images/Pen.png"/>
+            <h2>Designer/Illustrator</h2>
+            <ul>
+              <li>I value structure, simpliciry and cleanliness in all my designs.</li>
+              <li>To me it's about enjoying the process and putting a little bit of yourself in everything you produce</li>
+            </ul>
+            <hr/>
+            <h2>Design tools</h2>
+            <ul>
+                <li>Procreate</li>
+                <li>Invision</li>
+                <li>Figma</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe After Effects</li>
+              </ul>
+          </div>
+        <div class="logo-row">
+          <div *ngFor="let l of logos">
+            <div *ngIf="l !== undefined" class="logobox">
+              <img src="../../assets/images/LogosIcons/{{ l.image }}" />
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+
