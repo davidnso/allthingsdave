@@ -34,6 +34,7 @@
 .design-wrapper {
   padding: 10px;
   width:90%;
+  min-height: 550px;
   margin: auto;
   margin-top: -170px;
   text-align: center;
@@ -56,10 +57,12 @@
 .logo-row {
   right: 0;
   display: grid;
+  margin-top: 20px;
+  vertical-align: middle;
   grid-template-columns: 300px 300px;
   grid-row-gap: 30px;
   grid-row: auto auto;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   padding: 50px;
   margin-bottom: 30px;
 }
